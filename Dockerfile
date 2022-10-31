@@ -1,7 +1,4 @@
-###
-# Dockerfile for Unidata Tomcat.
-###
-FROM tomcat:8.5-jdk11-openjdk
+FROM tomcat
 
 ###
 # Usual maintenance, including gosu installation.
