@@ -9,8 +9,8 @@ on:
 env:
   PRISMA_API_URL: https://api2.eu.prismacloud.io
   PRISMA_CLOUD_CONSOLE: https://console.myprismacloud.com
-  REPO_ID: vulnerable-openssl
-  BUILD_IMAGE: "simonpanw/vulnerable-openssl"
+  REPO_ID: tomcat-with-vulnerable-openssl
+  BUILD_IMAGE: "simonpanw/tomcat-with-vulnerable-openssl"
   REMOTE_REGISTRY: "registry.myprismacloud.com"
 
 jobs:
